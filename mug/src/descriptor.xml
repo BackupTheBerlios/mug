@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<ApplicationDescriptor
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mug.ws http://www.mug.ws/ApplicationDescriptor.xsd"
+    xmlns="http://www.mug.ws">-->
+<ApplicationDescriptor>
+  <ApplicationToolBar componentClass="org.mug.gui.common.MToolBar">
+    <ToolBar componentClass="org.mug.gui.common.MToolBar">
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileNewAction"/>
+      <ToolBarSeparator/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileOpenAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAsAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAllAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileCloseAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileCloseAllAction"/>
+    </ToolBar>
+    <ToolBarSeparator/>
+    <ToolBar componentClass="org.mug.gui.common.MToolBar">
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileNewAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileOpenAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAsAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileSaveAllAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileCloseAction"/>
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MFileCloseAllAction"/>
+    </ToolBar>
+    <ToolBar componentClass="org.mug.gui.common.MToolBar">
+      <ToolBarButton componentClass="org.mug.gui.common.MToolBarButton" actionClass="org.mug.gui.actions.MSaveTrailAction"/>
+    </ToolBar>
+  </ApplicationToolBar>
+
+  <ApplicationMenuBar componentClass="org.mug.gui.common.MMenuBar">
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="fileMenu_Text" >
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileNewAction"/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileOpenAction"/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileSaveAction"/>
+      <MenuSeparator/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileSaveAsAction"/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileSaveAllAction"/>
+      <Menu componentClass="org.mug.gui.common.MMenu" resourceText="editMenu_Text" >
+      </Menu>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileCloseAction"/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileCloseAllAction"/>
+      <MenuSeparator/>
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileExitAction"/>
+    </Menu>
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="editMenu_Text" >
+      <MenuItem componentClass="org.mug.gui.common.MMenuItem" actionClass="org.mug.gui.actions.MFileSaveAsAction"/>
+    </Menu>
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="searchMenu_Text" >
+    </Menu>
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="viewMenu_Text" >
+    </Menu>
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="toolsMenu_Text" >
+    </Menu>
+    <Menu componentClass="org.mug.gui.common.MMenu" resourceText="toolsMenu_Text" >
+    </Menu>
+  </ApplicationMenuBar>
+</ApplicationDescriptor>

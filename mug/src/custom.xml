@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<ApplicationDescriptor
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mug.ws http://www.jmug.org/ApplicationDescriptor.xsd"
+    xmlns="http://www.mug.ws">-->
+<Custom>
+  <Model class="user.model.ModelOne">
+    <View container="Palette"  viewClass="user.ui.PaletteOne"/>
+    <View container="Designer" viewClass="user.ui.DesignerOne"/>
+    <View container="Modeller" viewClass="user.ui.ModellerOne"/>
+  </Model>
+
+  <Model class="user.model.ModelTwo">
+    <View container="Palette"  viewClass="user.ui.PaletteTwo"/>
+    <View container="Designer" viewClass="user.ui.DesignerTwo"/>
+    <View container="Modeller" viewClass="user.ui.ModellerTwo"/>
+  </Model>
+</Custom>
