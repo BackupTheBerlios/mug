@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <!--JBuilder Library Definition File-->
+  <fullname>JDOM</fullname>
+  <class>
+    <path>[jdom.jar]</path>
+    <path>[xerces.jar]</path>
+    <path>[xml-apis.jar]</path>
+  </class>
+  <lastmodsaved>1111160383199</lastmodsaved>
+</library>
