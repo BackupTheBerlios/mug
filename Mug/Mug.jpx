@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="build" name="CopyExtensions.1" value="xml"/>
+  <property category="config" name="autoformat.java.elseStatementOnNewLine" value="false"/>
+  <property category="config" name="autoformat.java.keepArrayInitialization" value="true"/>
+  <property category="config" name="autoformat.java.keepEndOfLines" value="true"/>
+  <property category="config" name="autoformat.java.maxNumOfEmptyNeightbouringLines" value="1"/>
+  <property category="config" name="autoformat.java.numOfEmptyLinesAfterClass" value="2"/>
+  <property category="config" name="autoformat.java.optimize.imports.numOfClassesToImportOnDemandUse" value="2"/>
+  <property category="config" name="autoformat.java.tabSize" value="2"/>
+  <property category="config" name="options.umlVersion" value="14"/>
+  <property category="config" name="parser.java.syntax" value="1.3"/>
+  <property category="generalFormatting" name="baseCodeStyle" value="java/Java Standard.codestyle"/>
+  <property category="generalFormatting" name="tabSize" value="2"/>
+  <property category="generalFormatting2" name="overrideBasicFormatting" value="1"/>
+  <property category="generalFormatting2" name="tabSize" value="2"/>
+  <property category="javaFormatting" name="alignMultilineAssign" value="1"/>
+  <property category="javaFormatting" name="arrayInitDataOnNewLine" value="0"/>
+  <property category="javaFormatting" name="blankLinesAfterClass" value="2"/>
+  <property category="javaFormatting" name="catchOnNewLine" value="0"/>
+  <property category="javaFormatting" name="elseOnNewLine" value="0"/>
+  <property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="finallyOnNewLine" value="0"/>
+  <property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="indentCase" value="0"/>
+  <property category="javaFormatting" name="packagePrefixGroups" value="java;BLANK_LINE;javax;BLANK_LINE;(*)"/>
+  <property category="javaFormatting" name="packageThreshold" value="2"/>
+  <property category="javaFormatting" name="preservedBlankLinesInDecl" value="2"/>
+  <property category="javaFormatting" name="spaceBeforeLparen" value="0"/>
+  <property category="javaFormatting" name="whileOnNewLine" value="0"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="path" name="DefaultDiagram" value="diagrams"/>
+  <property category="personality" name="personality" value="com.togethersoft.modules.impl.themis.JBuilderTogetherPersonality com.togethersoft.modules.primetimebridge.personality.UML20Personality com.borland.jbuilder.personality.JBuilderUMLPersonality "/>
+  <property category="runtime" name="ConfigurationCount" value="6"/>
+  <property category="runtime" name="DefaultConfiguration" value="1"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="Mug"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="org.mug.core.common.MLoader"/>
+  <property category="runtime.1" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.1" name="ConfigurationName" value="MLoader"/>
+  <property category="runtime.1" name="RunnableType" value="com.borland.jbuilder.runtime.JarRunner"/>
+  <property category="runtime.1" name="jar.file" value="MLoader.jar"/>
+  <property category="runtime.2" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.2" name="ConfigurationName" value="MLoader cmd load"/>
+  <property category="runtime.2" name="RunnableType" value="com.borland.jbuilder.runtime.JarRunner"/>
+  <property category="runtime.2" name="jar.file" value="MLoader.jar"/>
+  <property category="runtime.2" name="jar.parameters" value="modelurl"/>
+  <property category="runtime.3" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.3" name="ConfigurationName" value="MLoader cmd trail"/>
+  <property category="runtime.3" name="RunnableType" value="com.borland.jbuilder.runtime.JarRunner"/>
+  <property category="runtime.3" name="jar.file" value="MLoader.jar"/>
+  <property category="runtime.3" name="jar.parameters" value="-tC:\jProjects\Mug\src\trail.xml "/>
+  <property category="runtime.4" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.4" name="ConfigurationName" value="mmodeler"/>
+  <property category="runtime.4" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.4" name="application.class" value="org.mug.gui.MModeller"/>
+  <property category="runtime.5" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.5" name="ConfigurationName" value="Reflector"/>
+  <property category="runtime.5" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.5" name="application.class" value="org.mug.core.extra.MReflector"/>
+  <property category="runtime.6" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.6" name="ConfigurationName" value="Trail RUN"/>
+  <property category="runtime.6" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.6" name="application.class" value="org.mug.core.trail.MTrail"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="serverservices" name="single.server.name" value=""/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2004"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_04-b05"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="Log4J;JDOM"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="team" name="ignorePath.0" value=".localdata"/>
+  <property category="team" name="ignorePath.1" value="Calling Java Methods_files"/>
+  <property category="team" name="ignorePath.10" value="Calling Java Methods.htm"/>
+  <property category="team" name="ignorePath.11" value="Custom.jar"/>
+  <property category="team" name="ignorePath.12" value="Determine the signature of a method - Real's Java How-to.htm"/>
+  <property category="team" name="ignorePath.13" value="MLoader.jar"/>
+  <property category="team" name="ignorePath.14" value="Mug.jar"/>
+  <property category="team" name="ignorePath.15" value="Mug.jpx"/>
+  <property category="team" name="ignorePath.16" value="Mug.oif"/>
+  <property category="team" name="ignorePath.17" value="Mug.refactor"/>
+  <property category="team" name="ignorePath.18" value="application.properties"/>
+  <property category="team" name="ignorePath.19" value="loader.properties"/>
+  <property category="team" name="ignorePath.2" value="Determine the signature of a method - Real's Java How-to_files"/>
+  <property category="team" name="ignorePath.20" value="log4j.properties"/>
+  <property category="team" name="ignorePath.3" value="bak"/>
+  <property category="team" name="ignorePath.4" value="classes"/>
+  <property category="team" name="ignorePath.5" value="diagrams"/>
+  <property category="team" name="ignorePath.6" value="doc"/>
+  <property category="team" name="ignorePath.7" value="libs"/>
+  <property category="team" name="ignorePath.8" value="src"/>
+  <property category="team" name="ignorePath.9" value="test"/>
+  <property category="together" name="language" value="java"/>
+  <node name="Additional Settings" type="Folder">
+    <property category="sys" name="SettingsFolder" value="1"/>
+    <file path="src/org/mug/core/common/MServer.java">
+      <property category="generated" name="JavaSoft.rmic.0" value="org/mug/core/common/MServer_Stub.java"/>
+      <property category="idl" name="GenerateRMI" value="true"/>
+      <property category="idl" name="OtherRMIOptions" value="-v1.2"/>
+    </file>
+  </node>
+  <node name="Custom" type="Archive">
+    <property category="archiving" name="contentRules.1" value="I:user/**"/>
+    <property category="archiving" name="contentRules.2" value="F:src/custom.xml;custom.xml"/>
+    <property category="archiving" name="obfuscator" value="RetroGuard for J2ME"/>
+    <property category="archiving" name="targetPath" value="Custom.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="MLoader" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="F:classes/org/mug/core/common/MLoader.class;org/mug/core/common/MLoader.class"/>
+    <property category="archiving" name="contentRules.2" value="F:classes/org/mug/core/common/MProperties.class;org/mug/core/common/MProperties.class"/>
+    <property category="archiving" name="manifestMainClass" value="org.mug.core.common.MLoader"/>
+    <property category="archiving" name="obfuscator" value="RetroGuard for J2ME"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="MLoader.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Mug" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:org/mug/**"/>
+    <property category="archiving" name="contentRules.2" value="F:src/descriptor.xml;descriptor.xml"/>
+    <property category="archiving" name="includeDeps" value="1"/>
+    <property category="archiving" name="obfuscator" value="RetroGuard for J2ME"/>
+    <property category="archiving" name="targetPath" value="Mug.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <file path="application.properties"/>
+  <file path="src/custom.xml"/>
+  <file path="src/descriptor.xml"/>
+  <file path="loader.properties"/>
+  <file path="src/user/model/ModelOne.java"/>
+  <file path="src/trail.xml"/>
+</project>

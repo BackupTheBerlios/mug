@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.rgagnon.com/javadetails/java-0286.html -->
+<HTML><HEAD><TITLE>Determine the signature of a method - Real's Java How-to</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251"><!-- developpe par  Real Gagnon, Quebec Canada -->
+<META 
+content="Real's JAVA JAVASCRIPT WSH and PowerBuilder How-to pages with useful code snippets" 
+name=description>
+<META 
+content=java,javascript,wsh,vbscript,how-to,programming,tips,tricks,powerbuilder,pfc,datawindow,swing,jfc,powerscript,object,jdk,datastore,visualj,vcafe,powerj,sun,powersoft,microsoft,web,development,example 
+name=keywords><LINK title=mystyle 
+href="Determine the signature of a method - Real's Java How-to_files/howto.css" 
+type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=jsbrand id=jsbrand style="POSITION: absolute; TOP: 1px" align=right 
+zIndex="1000"><A href="http://www.rgagnon.com/" target=_top><IMG 
+alt="Jump to Real's How-to Main page" 
+src="Determine the signature of a method - Real's Java How-to_files/realhowto.gif" 
+border=0></A> </DIV>
+<SCRIPT language=Javascript1.2 
+src="Determine the signature of a method - Real's Java How-to_files/watermark.js"></SCRIPT>
+
+<H4>Determine the signature of a method</H4>Before calling a Java object's 
+method from JNI, we need its signature. For example, the method 
+<TABLE width=600 bgColor=#ffffcc>
+  <TBODY>
+  <TR>
+    <TD><PRE>long myMethod (int n, String s, int[] arr);</PRE></TR></TBODY></TABLE>is 
+seen from JNI with the signature 
+<TABLE width=600 bgColor=#ffffcc>
+  <TBODY>
+  <TR>
+    <TD><PRE>(ILjava/lang/String;[I)J</PRE></TR></TBODY></TABLE>There are two parts to 
+the signature. The first part is enclosed within the parentheses and represents 
+the method's arguments. The second portion follows the closing parenthesis and 
+represents the return type. The mapping between the Java type and C type is 
+<TABLE width=600 bgColor=#ffffcc>
+  <TBODY>
+  <TR>
+    <TD><PRE>Type     Chararacter 
+boolean      Z 
+byte         B 
+char         C 
+double       D 
+float        F 
+int          I 
+long         J 
+object       L 
+short        S 
+void         V 
+array        [ 
+</PRE></TR></TBODY></TABLE>Note that to specify an object, the "L" is followed 
+by the object's class name and ends with a semi-colon, ';' . 
+<P>The javap utility (included with the JDK) is very useful to show the 
+signature to be used in JNI. 
+<TABLE width=600 bgColor=#ffffcc>
+  <TBODY>
+  <TR>
+    <TD><PRE>X:\&gt;javap -s java.awt.Label
+Compiled from Label.java
+public class java.awt.Label extends java.awt.Component {
+    public static final int LEFT;
+        /*   I   */
+    public static final int CENTER;
+        /*   I   */
+    public static final int RIGHT;
+        /*   I   */
+    java.lang.String text;
+        /*   Ljava/lang/String;   */
+    int alignment;
+        /*   I   */
+    static {};
+        /*   ()V   */
+    public java.awt.Label();
+        /*   ()V   */
+    public java.awt.Label(java.lang.String);
+        /*   (Ljava/lang/String;)V   */
+    public java.awt.Label(java.lang.String,int);
+        /*   (Ljava/lang/String;I)V   */
+    public void addNotify();
+        /*   ()V   */
+    java.lang.String constructComponentName();
+        /*   ()Ljava/lang/String;   */
+    public int getAlignment();
+        /*   ()I   */
+    public java.lang.String getText();
+        /*   ()Ljava/lang/String;   */
+    protected java.lang.String paramString();
+        /*   ()Ljava/lang/String;   */
+    public synchronized void setAlignment(int);
+        /*   (I)V   */
+    public void setText(java.lang.String);
+        /*   (Ljava/lang/String;)V   */
+</PRE></TR></TBODY></TABLE>The javap utility can be used on the java.* or your 
+own classes. 
+<HR>
+<SMALL>Written and compiled by R&#233;al Gagnon ©1998-2000 
+<DIV align=right>
+<FORM action=https://www.paypal.com/cgi-bin/webscr method=post 
+target=_top><INPUT type=hidden value=_xclick name=cmd> <INPUT type=hidden 
+value=real@rgagnon.com name=business> <INPUT type=hidden 
+value="Support for Real's HowTo" name=item_name> <INPUT type=hidden 
+value=realhowto name=item_number> <INPUT type=hidden value=1 name=no_shipping> 
+<INPUT type=hidden value=http://www.rgagnon.com/thanks.html name=return> Useful 
+? Please consider a donation <INPUT 
+title="Make payments with PayPal - it's fast, free and secure!" type=image 
+alt="Make payments with PayPal - it's fast, free and secure!" 
+src="Determine the signature of a method - Real's Java How-to_files/x-click-but04.gif" 
+border=0 name=submit> </FORM></DIV>
+<P align=center>[<A href="http://www.rgagnon.com/" target=_top> home 
+</A>]</SMALL></P></BODY></HTML>
